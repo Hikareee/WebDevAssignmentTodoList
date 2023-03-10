@@ -1,38 +1,76 @@
-.App {
+.app {
+  text-align: center;
+  font-family: sans-serif, 'Fira sans';
+  background-color: burlywood;
+  
+}
+
+.app .header{
+   text-align: center;
+  font-family: sans-serif, 'Fira sans';
+  background-color: #e68bbe;
+  
+}
+h1{
+  color:white;
+  outline:black;
+}
+input {
+  padding: 4px;
+  margin-right: 8px;
+}
+
+
+ul {
+  /* Remove bullet point  */
+  list-style: none;
+}
+
+li {
+  background-color:#f4b8da ;
+  margin: 12px 0;
+  outline: black;
+}
+
+.delete-button {
+  font-size: 10px;
+  margin-left: 8px;
+
+  border: none;
+  background-color: #f4b8da;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.done {
+  background-color:#f4b8da ;
+  border:none;
+}
+.app .Additems{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #eea1cd;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.app .Additems:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app .Greg{
+  border:none;
+  border-color:#eea1cd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app .Pop{
+  padding-right:30px;
 }
